@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.container{
+  background-color: #0F0F0F;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 60px;
+
+  .container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .container-busqueda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    .busqueda{
+      display: inherit;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .container-perfil{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+}
+
+.imgPerfil{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
